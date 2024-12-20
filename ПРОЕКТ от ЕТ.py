@@ -114,18 +114,18 @@ while True:
                 print("\n", "Факториал", num, "=", factorial(num))
         except ValueError:
             print("Неверный ввод. Введите целое число.")
-    elif choice == '9':  # Скорость
+    elif choice == '9':
         distance = float(input("Введите расстояние(M): "))
         time = float(input("Введите время(C): "))
         print("Скорость = ", calculate_speed(distance, time))
 
-    elif choice == '10':  # Ускорение
+    elif choice == '10':
         initial_velocity = float(input("Введите начальную скорость(M/C): "))
         final_velocity = float(input("Введите конечную скорость(M/C): "))
         time = float(input("Введите время(C): "))
         print("Ускорение = ", calculate_acceleration(initial_velocity, final_velocity, time))
 
-    elif choice == '11':  # Расстояние
+    elif choice == '11':
         initial_velocity = float(input("Введите начальную скорость(M): "))
         acceleration = float(input("Введите ускорение(M/C): "))
         time = float(input("Введите время(C): "))
